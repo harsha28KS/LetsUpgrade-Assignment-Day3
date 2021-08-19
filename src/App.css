@@ -1,0 +1,102 @@
+body {
+  background-color: #1c1c25;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+.padd {
+  padding: 20px;
+}
+
+.input-group {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.search-field {
+  width: 80%;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 5px;
+  outline: none;
+  text-indent: 20px;
+  color: white;
+  background: transparent;
+}
+
+.btn {
+  width: 18%;
+  font-size: 20px;
+  background: #bf8313;
+  border-radius: 5px;
+  !color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.movie {
+  padding: 5px;
+  !background: gray;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.poster {
+  !height: 400px;
+  width: 33%;
+  !background-color: brown;
+  overflow: hidden;
+}
+
+.poster-img {
+  width: 100%;
+  height: 580px;
+}
+
+.details {
+  !height: 500px;
+  width: 65%;
+  !background-color: blue;
+}
+
+.padd p {
+  font-size: 20px;
+}
+
+.ratings {
+  display: flex;
+  !justify-content: space-between;
+}
+
+.ratings > div {
+  margin-right: 50px;
+}
